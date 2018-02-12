@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cart</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="stylesheet" href="../css/index.css" type="text/css">
+  <link rel="stylesheet" href="../css/cart.css" type="text/css">
+  <link rel="stylesheet" href="../css/bootstrap-rtl.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant|Open+Sans&amp;subset=hebrew">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+
+<body>
+  <header>
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#"><img src="../images/Logo.png" height="48"></a>
+      </div>
+      <div class="collapse navbar-collapse navbar-menubuilder">
+        <ul class="nav navbar-nav navbar-right ourNav">
+          <li class="navbar-right"><a href="../index.html"><span class="glyphicon glyphicon-home"></span> בית</a></li>
+          <li class="navbar-right"><a href="#" title="לא מוגדר"><span class="glyphicon glyphicon-user"></span> אודות</a></li>
+          <li class="navbar-right"> <a href="#" title="לא מוגדר"><span class="glyphicon glyphicon-cutlery"></span> המאפים שלנו</a></li>
+          <li class="active navbar-right"><a href="category.html"><span class="glyphicon glyphicon-shopping-cart"></span> הזמנה-איסוף עצמי</a></li>
+          <li class="navbar-right"><a href="club.html"><span class="glyphicon glyphicon-gift"></span> מועדון חברים</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="clear"></div>
+
+
+  <main>
+    <!-- Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-xs-12">
+          <div class="panel panel-danger">
+
+            <!-- panel-heading(blue part) -->
+            <div class="panel-heading">
+              <div class="panel-title">
+                <div class="row">
+                  <div class="col-md-2">
+
+                    <a class="btn btn-primary btn-sm pull-left" href="items.html" role="button"><span class="glyphicon glyphicon-share-alt"></span>  חזור למוצרים</a>
+                  </div>
+                  <div class="col-md-10">
+                    <h4><span class="glyphicon glyphicon-shopping-cart"></span> פירוט הזמנה</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- panel-body(list of items) -->
+            <div id="order_container" class="panel-body">
+              <div id="rows_render_start">
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-xs-12 text-center">
+                  <h4><strong id="grand_total">סה"כ: 0 ש"ח</strong></h4>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <div class="row">
+                  <div class="col-md-3 col-xs-12">
+                    <button id="approve" class="btn btn-success btn-lg btn-block">אישור הזמנה</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Content -->
+
+  </main>
+
+  <footer class="footer">
+    <div class="row" id="text-in-footer">
+      <div class="col-md-4">
+        <h4><b>עקבו אחרינו</b></h4>
+        <br>
+        <a href="http://www.instagram.com/"><img src="../images/Instagram.png" alt="Instagram" height="42" width="42"></a>
+        <a href="http://www.facebook.com/"><img class="middlePic" src="../images/Facebook.png" alt="Facebook" height="42" width="42"></a>
+        <a href="http://www.twitter.com/"><img src="../images/Twitter.png" alt="Twitter" height="42" width="42"></a>
+      </div>
+      <div class="col-md-4">
+        <h4><b>צרו קשר</b></h4>
+        <p>רח' הירקון 5, תל אביב
+          <br> 03-1234567
+          <br> <a href="mailto:support@bakery.com">support@bakery.com</a> </div>
+      <div class="col-md-4">
+        <h4><b>The CupCake Bakery</b></h4>
+        <p>מאפייה מצויינת עם התמחות בכל סוגי הקאפקייקס</p>
+        <br>
+        <p><b>שעות פתיחה</b>
+          <br> ימים א'-ה' 7:00-22:00
+          <br> יום ו' וערב חג 7:00-15:00</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../js/cart.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,184 @@
+* {
+    font-family: 'Assistant', 'sans-serif';
+	direction: rtl;
+	font-size: 18px;
+    /* overflow-x: hidden; */
+}
+
+body main {
+    padding: 5%;
+   
+}
+
+/*------ navbar ----------*/
+#menu.navbar-default .navbar-brand {
+    color: black;
+padding-top:2%
+}
+#menu.navbar-default {
+    font-size: 20px;
+    background-color: rgba(229, 212, 219, 1);
+    border-bottom-width: 1px;
+padding-right:8px;
+}
+#menu.navbar-default .navbar-nav>li>a {
+    color: black;
+    background-color: rgba(229, 212, 219, 1);
+
+}
+#menu.navbar-default .navbar-nav>li>a:hover,
+#menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(159, 111, 148, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#menu.navbar-default .navbar-nav>.active>a,
+#menu.navbar-default .navbar-nav>.active>a:hover,
+#menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(3, 3, 3, 1);
+    background-color: rgba(159, 111, 148, 1);
+}
+#menu.navbar-default .navbar-toggle {
+    border-color: #9f6f94;
+}
+#menu.navbar-default .navbar-toggle:hover,
+#menu.navbar-default .navbar-toggle:focus {
+    background-color: #9f6f94;
+}
+#menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #9f6f94;
+}
+#menu.navbar-default .navbar-toggle:hover .icon-bar,
+#menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #e5d4db;
+}
+.navbar-brand img {
+	margin-top: -1%;
+}
+
+
+/*------ end navbar ----------*/
+
+
+#front-image {
+    padding-top: 1px;
+    background: #e8eced url('../images/front-image2.jpg') no-repeat;
+    text-align: center;
+    height: 560px;
+    margin-left: -10%;
+    margin-right: -6%;
+    margin-top: -2.5%;
+	width:111.5%
+}
+
+#cta {
+    padding: 60px 0;
+    margin: 0 auto;
+    padding-top: 256px;
+}
+
+.button-2 {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #FCFAFB;
+    color: white;
+    border-radius: 3px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #9F6F94;
+    left: 250px;
+    text-decoration: none;
+}
+
+.button-2:hover {
+    background-color: #E5D4DB;
+    color: white;
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+	margin-top:0px;
+}
+
+.container {
+	min-height: 75vh;
+	padding-top:100px;
+}
+
+.panel-danger > .panel-heading {
+	 background-color: #E5D4DB;
+}
+
+#left {
+    float: left;
+}
+
+#center {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#right {
+    float: right;
+}
+
+h1, h2, h3, h4, h5, h6, a, img, span {
+	overflow: hidden;
+}
+
+footer {
+	position: relative;
+	bottom:0;
+	right: 0;
+	left: 0;
+}
+.footer {
+  background-color: #E5D4DB;
+}
+
+.middlePic {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.clear {
+    clear: both;
+}
+.ourBakery{
+	float:left;
+}
+.about{
+	margin-top:40px;
+	margin-bottom:20px;
+	
+}
+.offers{
+	text-align:right;
+	margin-top:50px;
+	color:#800080;
+}
+.ourProducts{
+	margin-bottom:0px;
+}
+.aboutUs{
+	color:#800080;
+}
+#text-in-footer{
+	margin-right:12.5px;
+	margin-left:0px;
+}
+.logo{
+	float:left;
+	height:200%;
+	width:60%;
+	padding-left:0px;
+	top:0px;
+}
+.ourNav
+{
+padding-right:12px;
+}
+
